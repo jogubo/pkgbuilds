@@ -17,7 +17,13 @@ options=(!strip)
 source=("http://releases.sailfishos.org/sdk/installers/${pkgver}/SailfishSDK-${pkgver}-linux64-offline.run"
         "install_rules.js"
         "${pkgname}.install"
-        "SailfishOS.license")
+        "SailfishOS.license"
+        "LICENSE.PYTHON"
+        "LICENSE.LGPL"
+        "LGPL_EXCEPTION.TXT"
+        "LICENSE.GPL2"
+        "LICENSE.GPL3"
+        "LICENSE.ICU")
 sha512sums=('6b20fe38f8d4b3334d9aa15c2703696e8d3ba0f04bb0ee4e81c99779e870c0e49a24727e9523a85a87c997e4ab8725e832654d38fcefbdd3da28b11d3062ce7b'
             'bcf093c1f257b00deaab6113feb0060ea3a165c10617948993a56607b70629d599b0727647e46a1fb12ce89d7c2788b689dad2b4e7310216c61053babe6db476'
             '61beaae92c821a9cabef1fbb109f86f18457c4ab05dfb9108ae78e66bcbb4390447b6a664b2353bd1fe10f3a795f0554053aa86ddb3d9ae65864d02430b5c53e'
